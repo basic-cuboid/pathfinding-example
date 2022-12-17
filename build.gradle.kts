@@ -13,7 +13,13 @@ repositories {
 }
 
 dependencies {
+    implementation("ch.qos.logback:logback-classic:1.4.5")
+    implementation("io.github.microutils:kotlin-logging-jvm:3.0.4")
+    implementation("io.github.basic-cuboid:kotlin-opengl-basic:1.0.0-SNAPSHOT")
+    
     testImplementation(kotlin("test"))
+    testImplementation("io.mockk:mockk:1.13.3")
+    testImplementation("io.strikt:strikt-core:0.34.1")
 }
 
 tasks.test {
