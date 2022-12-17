@@ -9,6 +9,7 @@ group = "io.github.basic-cuboid"
 version = "1.0.0-SNAPSHOT"
 
 repositories {
+    mavenLocal()
     mavenCentral()
 }
 
