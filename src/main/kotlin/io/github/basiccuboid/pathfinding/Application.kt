@@ -1,4 +1,4 @@
-package io.github.basiccubiod.pathfinding
+package io.github.basiccuboid.pathfinding
 
 fun main() {
     println("Hello World!")

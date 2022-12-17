@@ -32,5 +32,6 @@ tasks.withType<KotlinCompile> {
 }
 
 application {
-    mainClass.set("MainKt")
+    mainClass.set("io.github.basiccuboid.pathfinding.ApplicationKt")
+    applicationDefaultJvmArgs = listOf("-XstartOnFirstThread")
 }
